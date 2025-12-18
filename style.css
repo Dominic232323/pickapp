@@ -7,14 +7,12 @@
 body {
   color: #333333;
   margin: 0;
-   font-family: 'Roboto', Arial, sans-serif;
-}
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+
 }
 
 /* ===== nav container ===== */
 nav {
+  font-family: 'Montserrat', sans-serif;
   background-color: #e2e0db; /* White background */
   padding: 10px 25px;
   position: fixed;       /* fixed at top */
@@ -68,14 +66,16 @@ input[type="checkbox"] {
   width: 50px; /* Adjust the width of the logo */
   height: auto; /* Maintain aspect ratio */
 }
+
+
 /* ===== main menu (horizontal) ===== */
 .menu {
   list-style: none;
   margin: 0;
   display: flex;            /* Horizontal layout */
-  gap: 25px;                /* Spacing between items */
+  gap: 30px;                /* Spacing between items */
   align-items: center;
-  justify-content: center;  /* Ensure the items stay centered */
+  justify-content: right;  /* Ensure the items stay centered */
   position: relative; /* Ensure the menu stays centered when dropdowns open */
   width: 100%;  /* Ensure full width for centering */
 }
@@ -164,7 +164,7 @@ input[type="checkbox"] {
   top: calc(100% + 10px); /* Gap below nav */
   left: 0;
   background: rgb(240,240,240);
-  min-width: 220px;
+  min-width: 190px;
   border-radius: 6px;
   padding: 8px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.18);
@@ -206,7 +206,7 @@ input[type="checkbox"] {
   list-style: none;
   padding-left: 14px; /* Indent */
   margin-top: 6px;
-}
+}  
 
 .submenu li { 
   margin: 4px 0;
@@ -619,8 +619,8 @@ input[type="checkbox"] {
 
 /* General styling for video titles */
 .video-title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
-  font-weight: bold;
   color: orange;
   text-align: center;
   margin-top: 15px;
@@ -630,6 +630,7 @@ input[type="checkbox"] {
 
 /* General styles for the achievement text */
 .achievement-text {
+  font-family: 'Open Sans', sans-serif;
   margin-top: 20px;
   font-size: 16px;
   color: white;
@@ -648,13 +649,15 @@ input[type="checkbox"] {
 
 /* Heading styles for achievement section */
 .achievement-text h3 {
+font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: bold;
   margin-top: 15px;
 }
 
 /* Style for unordered list (bullet points) */
-.achievement-text ul {
+.achievement-text ul  {
+  font-family: 'Open Sans', sans-serif;
   list-style-type: disc; /* Add bullets */
   margin-left: 20px;     /* Keep some space from container edge */
   padding-left: 5px;    /* Reduce space between bullet and text */
@@ -668,6 +671,7 @@ input[type="checkbox"] {
 }
 /* Styling for footer */
 footer {
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: white;
   margin-top: 20px;
@@ -750,7 +754,7 @@ footer {
 }
 
 .read-more-btn {
-  
+  font-family: 'Raleway', sans-serif;
   background-color: #FF3B30; /* Light orange background */
   color: white; /* White text */
   font-size: 16px;
@@ -830,6 +834,7 @@ footer {
 
 /* Title Styling */
 .title-orange {
+  font-family: 'Montserrat', sans-serif;
   color: orange; /* Set the color of the title to orange */
   font-size: 40px; /* Adjust font size to fit the container */
   margin: 0; /* Remove margin */
@@ -887,8 +892,10 @@ footer {
   border-radius: 10px; /* Rounded corners for image */
 }
 
+
 /* Title Styling */
 .title {
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #FF3B30; /* Orange color */
@@ -898,6 +905,7 @@ footer {
 }
 
 .description {
+  font-family: 'Open Sans', sans-serif;
   background-color: white;
   border-radius: 8px;
   padding: 4px;
@@ -920,9 +928,10 @@ footer {
 
 /* Find Out More Button */
 .find-more-btn {
+  font-family: 'Raleway', sans-serif;
   background-color: #FF3B30; /* Light orange background */
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   padding: 12px 25px;
   border: 2px solid #FFA500; /* Border color matching the background */
   border-radius: 30px;
@@ -1064,9 +1073,9 @@ footer {
 
 /* Title */
 .why-title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 42px;
   color: #FF4500;
-  font-weight: bold;
   margin-bottom: 50px;
   padding-left: 400px;
   margin-top: 2px;
@@ -1168,6 +1177,7 @@ footer {
   width: 100%;
 }
 .back-content h3 {
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -1178,6 +1188,7 @@ footer {
   margin: 10px auto;
 }
 .back-content ul {
+  font-family: 'Open Sans', sans-serif;
   list-style-type: disc;
   padding-left: 20px;
   text-align: left;
@@ -1340,6 +1351,7 @@ footer {
 }
 /* Text & buttons */
 .download-text {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center; /* center vertically */
@@ -1395,8 +1407,8 @@ footer {
 
 
 .follow-title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.8rem;
-  font-weight: 700;
   color: #FF4500;
   margin-bottom: 20px;
 }
@@ -1431,6 +1443,7 @@ footer {
 
 /* HOVER DIV (Background + Text) */
 .social-item .social-hover {
+  font-family: 'Raleway', sans-serif;
   position: absolute;
   top: 0;
   left: 0;
@@ -1559,6 +1572,7 @@ footer {
 
 /* See reviews text */
 .arrow-text {
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #FF4500; /* orange color */
   font-weight: bold;
@@ -1595,13 +1609,14 @@ footer {
 }
 
 .review-header-text h3 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   color: #FF4500;
-  font-weight: bold;
   margin: 0;
 }
 
 .review-header-text .recommend {
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 600;
   margin: 5px 0;
@@ -1609,6 +1624,7 @@ footer {
 }
 
 .review-header-text .opinion {
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
  color: #333333;
   margin: 0;
@@ -1629,39 +1645,9 @@ footer {
   50% { transform: translateY(-5px); }
   100% { transform: translateY(0); }
 }
-/* Facebook icon */
-.fb-icon-large {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-/* Review header text (aligned left) */
-.review-header-text {
-  text-align: left; 
-}
 
-.review-header-text h3 {
-  font-size: 28px;
-  color: #FF4500;
-  font-weight: bold;
-  margin: 0;
-}
 
-.review-header-text .recommend {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 5px 0;
-   color: #333333;
-}
-
-.review-header-text .opinion {
-  font-size: 18px;
-  color: #777;
-  margin: 0;
-}
 
 
 
@@ -1782,6 +1768,7 @@ footer {
 
 /* COMMENT */
 .review-comment {
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #333;
   margin: 10px 0;
@@ -1790,13 +1777,14 @@ footer {
 
 /* NAME */
 .review-name {
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   margin: 5px 0;
 }
 
 /* DATE */
 .review-date {
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: #777;
 }
@@ -1874,10 +1862,10 @@ footer {
 
 /* FOOTER STYLES */
 .site-footer {
+  font-family: 'Raleway', sans-serif;
  background-color: #000;       /* black background */
   color: #c5c2c1;               /* orange text */
   text-align: center;           /* center text */
-  font-weight: bold;            /* bold text */
 
   font-size: 18px;              /* text size */
   padding: 40px 20px;           /* increase top/bottom padding for taller footer */
@@ -1930,8 +1918,9 @@ footer {
   cursor: pointer; 
 }
 .brand-text h3 {
+  font-family: 'Raleway', sans-serif;
   font-size: 1.2rem;
-  font-weight: 700;
+
   color: white; /* White text to contrast with orange background */
   margin-bottom: 20px;
  
@@ -1944,7 +1933,7 @@ footer {
   cursor: pointer; /* Shows it's interactive */
 }
 
-.brand-text h2:hover {
+.brand-text h3:hover {
   background-color: #ff9900; /* Slightly lighter orange */
   transform: scale(1.05); /* Slightly enlarges the title */
   box-shadow: 0 0 15px rgba(255, 153, 0, 0.6); /* Glow intensifies */
@@ -1952,7 +1941,9 @@ footer {
 
 
 .brand-text p {
-  font-size: 1.1rem;
+font-family: 'Open Sans', sans-serif;
+
+  font-size: 1rem;
   line-height: 1.8;
   color: #333333;
   margin-bottom: 15px;
@@ -2023,18 +2014,18 @@ footer {
 
 /* ✨ NAME (Large, Bold) */
 .leader-text h2 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  font-weight: 700;
   color: #333333;
   margin-bottom: 10px;
 }
 
 /* ✨ TITLE (Orange Background, Rounded) */
 .leader-title {
+  font-family: 'Raleway', sans-serif;
   display: inline-block;
   background-color: #ff7a00;
   color: #fff;
-  font-weight: 600;
   padding: 6px 18px;
   border-radius: 25px;
   margin-bottom: 20px;
@@ -2049,7 +2040,8 @@ footer {
 
 /* ✨ DESCRIPTION TEXT */
 .leader-text p {
-  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
   line-height: 1.9;
   color: #333;
   margin-bottom: 20px; /* ✅ extra breathing space between paragraphs */
@@ -2075,8 +2067,8 @@ footer {
 
 /* 🔶 Title */
 .section-title {
-  font-size: 2.8rem;
-  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
   color: #ff7a00;
 
 }
@@ -2145,7 +2137,8 @@ footer {
 
 
 .mv-item p {
-  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
   line-height: 1.8;
   color: #333;
   text-align: justify;
@@ -2194,7 +2187,7 @@ footer {
   
 
 
-  .brand-text h2 {
+  .brand-text h3 {
     font-size: 1.6rem;
     text-align: center;
     padding: 8px 18px;
