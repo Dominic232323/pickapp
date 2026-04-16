@@ -2042,7 +2042,7 @@ font-family: 'Open Sans', sans-serif;
 .leader-text p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  line-height: 1.9;
+  line-height: 1.8;
   color: #333;
   margin-bottom: 20px; /* ✅ extra breathing space between paragraphs */
   text-align: justify;
@@ -2453,8 +2453,8 @@ font-family: 'Open Sans', sans-serif;
 }
 /* Section Title */
 .services-section.side-layout-services .services-title {
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
-  font-weight: 700;
   color: #ff7f00;
   margin-bottom: 2rem;
   text-align: left;
@@ -2484,10 +2484,10 @@ font-family: 'Open Sans', sans-serif;
 
 /* Service Label (looks like a button) */
 .services-section.side-layout-services .service-label {
+  font-family: 'Raleway', sans-serif;
   display: inline-block;
   background-color: #ff7f00;
   color: #fff;
-  font-weight: 600;
   font-size: 1.1rem;
   padding: 0.5rem 1.2rem;
   border-radius: 25px;
@@ -2497,6 +2497,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Description text */
 .services-section.side-layout-services .service-desc {
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.95rem;
   line-height: 1.6;
   color: #333;
@@ -2552,6 +2553,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Desktop / Default */
 .how-to-title h4 {
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   background-color: #ff7b00;
   color: #fff;
@@ -2749,18 +2751,18 @@ font-family: 'Open Sans', sans-serif;
 
 /* Card title */
 .card-title {
+  font-family: 'Raleway', sans-serif;
   background-color: #ff9900; /* orange background */
   color: #fff;
   padding: 0.4rem 0.8rem;
   border-radius: 20px; /* rounded sides */
   display: inline-block;
   margin-bottom: 0.8rem;
-
-  font-weight: 600;
 }
 
 /* Card description */
 .card-desc {
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.95rem;
   color: #333;
 }
@@ -2793,12 +2795,14 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .launch-text h3 {
+   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   color: #ff9900; /* orange title */
   margin-bottom: 0.3rem;
 }
 
 .launch-date {
+   font-family: 'Raleway', sans-serif;
   display: block;
   font-size: 1rem;
   color: #666;
@@ -2806,6 +2810,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .launch-text p {
+   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   color: #333;
   line-height: 1.6;
@@ -2916,18 +2921,20 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .news-text h3 {
+   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
-  font-weight: 600;
   color: #ff9900; /* orange heading */
   margin-bottom: 1rem;
 }
 
 .news-text p {
+   font-family: 'Open Sans', sans-serif;
   margin-bottom: 1rem;
   font-size: 1rem;
 }
 
 .news-text .highlight {
+   font-family: 'Open Sans', sans-serif;
   color: #ff9900;
   font-weight: 600;
 }
@@ -3023,17 +3030,17 @@ font-family: 'Open Sans', sans-serif;
 
 /* title */
 .driver-title {
+  font-family: "Montserrat", sans-serif;
   margin: 0 0 12px;
   font-size: 1.75rem;       /* scales nicely on desktop */
   line-height: 1.1;
   color: #FF8C00; 
-
-  font-weight: 700;
   letter-spacing: -0.2px;
 }
 
 /* subtitle / short description (<=140 chars) */
 .driver-subtitle {
+   font-family: "Open Sans", sans-serif;
   margin: 0 auto 20px;
   max-width: 820px;
   color: #444;
@@ -3052,6 +3059,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* primary CTA */
 .driver-cta {
+     font-family: "Raleway", sans-serif;
   display: inline-block;
   text-decoration: none;
   background-color: #ff6600;
@@ -3184,6 +3192,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Title Styling — inline orange highlight */
 .driver-card-title {
+       font-family: "Montserrat", sans-serif;
   display: inline-block;
   background-color: #fff4e6;
   color: #ff6600;
@@ -3198,6 +3207,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Orange Button */
 .btn-orange {
+    font-family: "Raleway", sans-serif;
   margin-top: 10px;
   padding: 8px 20px;
   border: none;
@@ -3288,6 +3298,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Modal Content with Background */
 .modal-content {
+  
   background: url("images/modal-bg.png") no-repeat center center;
   background-size: cover; /* best for 900x500 image */
   border-radius: 16px;
@@ -3354,6 +3365,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Title */
 .modal-title {
+   font-family: "Montserrat", sans-serif;
   text-align: center;
   color: #ff6600;
   font-size: 1.4rem;
@@ -3363,10 +3375,11 @@ font-family: 'Open Sans', sans-serif;
 
 /* List */
 .modal-list {
+   font-family: "Open Sans", sans-serif;
   list-style: disc;
   margin: 0 0 20px 25px;
   color: #333;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .second-row {
@@ -3483,16 +3496,17 @@ font-family: 'Open Sans', sans-serif;
 
 /* title */
 .merchant-title {
+  font-family: "Montserrat", sans-serif;
   margin: 0 0 12px;
   font-size: 1.75rem;
   line-height: 1.1;
   color: #FF8C00;
-  font-weight: 700;
   letter-spacing: -0.2px;
 }
 
 /* subtitle */
 .merchant-subtitle {
+   font-family: "Open Sans", sans-serif;
   margin: 0 auto 20px;
   max-width: 820px;
   color: #444;
@@ -3511,13 +3525,13 @@ font-family: 'Open Sans', sans-serif;
 
 /* primary CTA */
 .merchant-cta {
+   font-family: "Raleway", sans-serif;
   display: inline-block;
   text-decoration: none;
   background-color: #ff6600;
   color: #fff;
   padding: 7px 16px;
   border-radius: 10px;
-  font-weight: 700;
   transition: transform 0.16s ease, box-shadow 0.16s ease;
   box-shadow: 0 6px 18px rgba(255,102,0,0.18);
 }
@@ -3594,6 +3608,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Title Styling */
 .merchant-card-title {
+   font-family: "Montserrat", sans-serif;
   display: inline-block;
   background-color: #fff4e6;
   color: #ff6600;
@@ -3603,7 +3618,6 @@ font-family: 'Open Sans', sans-serif;
   margin-right: 10px;
   border-radius: 10px;
   font-size: 1.05rem;
-  font-weight: bold;
 }
 
 /* Orange Button */
@@ -3824,6 +3838,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 #color-selector-section h2 {
+    font-family: "Montserrat", sans-serif;
     color: #333333;                   /* main text color */
     font-size: 24px;
     line-height: 1.4;
@@ -3880,6 +3895,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Color buttons */
 .product-color-buttons {
+ 
   flex: 0 0 150px; /* fixed width column */
   display: flex;
   flex-direction: column;
@@ -3889,6 +3905,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .product-color-buttons button {
+    font-family: "Raleway", sans-serif;
   padding: 10px 20px;
   border: none;
   border-radius: 50px;
@@ -3931,6 +3948,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .product-detail-title {
+    font-family: "Montserrat", sans-serif;
   display: inline-block;        /* allows padding to wrap tightly around text */
     padding: 8px 30px;            /* vertical and horizontal padding */
     background-color: #FFA500;    /* background color behind the text */
@@ -3990,6 +4008,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* ===== Text ===== */
 .product-detail-text {
+    font-family: "Open Sans", sans-serif;
   font-size: 15px;
   color: #333;
   line-height: 1.6;
@@ -4060,6 +4079,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 #vehicle-specs h2 {
+    font-family: "Montserrat", sans-serif;
     display: inline-block;        /* allows padding to wrap tightly around text */
     padding: 8px 20px;            /* vertical and horizontal padding */
     background-color: #FFA500;    /* background color behind the text */
@@ -4120,12 +4140,14 @@ font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
 }
 
-.spec-card .label {
+.spec-card .label {  
+  font-family: "Raleway", sans-serif;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .spec-card .value {
+    font-family: "Open Sans", sans-serif;
     font-weight: normal;
     color: #333;
 }
@@ -4283,14 +4305,22 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .positions-left h2 {
+  font-family: "Montserrat", sans-serif;
   color: #FF7A00;
   margin-bottom: 10px;
 }
 
 .positions-left p {
+   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+.positions-title{
+
+   font-family: "Raleway", sans-serif;
+   color: #FF7A00;
+  margin-bottom: 10px;
 }
 
 .positions-left ul {
