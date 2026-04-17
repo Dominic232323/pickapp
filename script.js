@@ -225,7 +225,7 @@ document.querySelectorAll('.hero-section').forEach((section) => {
     window.addEventListener('resize', updateReviewSlide);
   }
 
-  // -----------------------------
+  // -----------------------------   
   // VIDEO PLAY ON CLICK
   // -----------------------------
   document.querySelectorAll('.video-container').forEach(container => {
