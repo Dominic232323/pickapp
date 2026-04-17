@@ -405,17 +405,8 @@ canvas.addEventListener('mousemove', e => {
       dot.vy += dy / dist * 0.2;
     }
   });
+ });
 });
-
-
-
-
-});
-
-
-
-
-
 
 document.addEventListener('DOMContentLoaded', () => {
   // 🔹 Define all modals

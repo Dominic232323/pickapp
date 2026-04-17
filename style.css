@@ -1,4 +1,3 @@
-
 /* ===== base ===== */
 * {
   box-sizing: border-box;
@@ -340,7 +339,7 @@ input[type="checkbox"] {
   height: 100%;
   z-index: 0;
   display: block;
-  background: radial-gradient(circle at center, #0f2027, #203a43, #2c5364);
+  background: radial-gradient(circle at center, #bb3434, #f8712d, #b1140f);
 }
 
 .gallery-container {
@@ -528,31 +527,14 @@ input[type="checkbox"] {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Full Page Background (covers the entire page) */
 .full-page-background {
-  background-color: rgb(25, 25, 25); /* Black background for the entire page */
-  color: white; /* Make text white */
-  padding: 20px 0; /* Add padding to the top and bottom */
+  background-color: #870e0e;
+  color: rgb(71, 71, 71);
+  padding: 20px 0;
   width: 100%;
-  min-height: 100vh; /* Ensure the background covers at least the full height of the screen */
+  min-height: 100vh;
 }
-
 
 /* General styles for the video section */
 .video-section {
@@ -678,13 +660,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .video-section {
@@ -737,13 +712,6 @@ footer {
     background-color: #e57700;
   }
 }
-
-
-
-
-
-
-
 
 
 
@@ -843,7 +811,6 @@ footer {
 
 
 
-
 /* Grid Container */
 .grid-container {
   display: grid;
@@ -918,7 +885,6 @@ footer {
   text-align: justify;  /* Justify the text */
   text-justify: inter-word;  /* Optional: Specifies how words are spaced */
 }
-
 
 
 /* Button Container */
@@ -1045,13 +1011,6 @@ footer {
   }
   }
 }
-
-
-
-
-
-
-
 
 
 /* Background wrapper */
@@ -1260,20 +1219,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MAIN SECTION */
 .download-section {
   
@@ -1336,8 +1281,6 @@ footer {
   transform: scale(1.05); /* slightly bigger */
    box-shadow: 0 4px 20px rgba(255, 69, 0, 0.7); /* Red-orange shadow on hover */
 }
-
-
 
 
 
@@ -1549,13 +1492,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
 .review-header {
   display: flex;
   align-items: center;
@@ -1630,8 +1566,6 @@ footer {
   margin: 0;
 }
 
-
-
 /* Arrow animation */
 @keyframes bounce {
   0% { transform: translateX(0) translateY(0); }
@@ -1645,30 +1579,6 @@ footer {
   50% { transform: translateY(-5px); }
   100% { transform: translateY(0); }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* REVIEW SECTION */
@@ -1863,11 +1773,11 @@ footer {
 /* FOOTER STYLES */
 .site-footer {
   font-family: 'Raleway', sans-serif;
- background-color: #000;       /* black background */
-  color: #c5c2c1;               /* orange text */
+ background-color: #aa0808;       /* black background */
+  color: #ffffff;               /* orange text */
   text-align: center;           /* center text */
 
-  font-size: 18px;              /* text size */
+  font-size: 60px;              /* text size */
   padding: 40px 20px;           /* increase top/bottom padding for taller footer */
   /* min-height: 100px; */      /* optional fixed minimum height */
 }
@@ -1876,13 +1786,6 @@ footer {
   margin: 5px 0;                /* spacing between lines */
   font-size: 18px;              /* ensure paragraph text also increases */
 }
-
-
-
-
-
-
-
 
 
 /* THE STORY BEHIND */
@@ -1953,16 +1856,6 @@ font-family: 'Open Sans', sans-serif;
   color: #ff7a00; /* Orange highlight for brand names */
   font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* ========= BASE STYLES ========= */
@@ -2055,9 +1948,6 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-
-
-
 /* ===== OUR COMPANY'S MISSION & VISION ===== */
 .mission-vision {
   padding: 5px 10%;
@@ -2097,7 +1987,6 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-
 .mv-item img {
   width: 100%; /* ✅ Adjust this value to control size (e.g., 50%, 40%, etc.) */
   max-width: 500px; /* ✅ Prevents the image from being too large on wide screens */
@@ -2112,7 +2001,6 @@ font-family: 'Open Sans', sans-serif;
 .mv-item img:hover {
   transform: scale(1.05);
 }
-
 
 
 /* 🟧 Heading (Mission / Vision) */
@@ -2271,9 +2159,6 @@ font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
   }
 }
-
-
-
 
 
 /* Side-by-side video and description layout */
@@ -2538,10 +2423,6 @@ font-family: 'Open Sans', sans-serif;
   }
 }
 
-
-
-
-
 /* =========================
    HOW TO TITLE STYLE
    ========================= */
@@ -2608,14 +2489,6 @@ font-family: 'Open Sans', sans-serif;
   }
 }
 
-
-
-
-
-
-
-
-
 /*operating areas*/
 /* Section container */
 .image-showcase {
@@ -2664,7 +2537,6 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-
 /* 🧩 Responsive Adjustments */
 @media (max-width: 1024px) {
   .image-bg img {
@@ -2690,7 +2562,6 @@ font-family: 'Open Sans', sans-serif;
     height: 220px;
   }
 }
-
 
 
 .cards-section {
@@ -2768,14 +2639,6 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-
-
-
-
-
-
-
-
 /* ----------------------------- */
 /* LAUNCH SECTION */
 /* ----------------------------- */
@@ -2835,22 +2698,6 @@ font-family: 'Open Sans', sans-serif;
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*news*/
@@ -2995,19 +2842,6 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ====== DRIVER HERO / HEADER SECTION ====== */
 .driver {
   padding: 40px 16px;
@@ -3126,18 +2960,6 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Driver Cards Section */
 .driver-cards-section {
   display: grid;
@@ -3243,8 +3065,6 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-
-
 @media (max-width: 700px) {
   .driver-card{
     margin-bottom: 20px;
@@ -3277,10 +3097,6 @@ font-family: 'Open Sans', sans-serif;
     height: 210px; /* smaller image for mobile */
   }
 }
-
-
-
-
 
 
 /* Modal Overlay */
@@ -3454,24 +3270,6 @@ font-family: 'Open Sans', sans-serif;
     right: 15px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3929,14 +3727,6 @@ font-family: 'Open Sans', sans-serif;
 .yellow { background-color: #FFEB3B; color: #000; }
 
 
-
-
-
-
-
-
-
-
 /* =========================
    PRODUCT DETAIL SECTION
    ========================= */
@@ -3949,7 +3739,7 @@ font-family: 'Open Sans', sans-serif;
 
 .product-detail-title {
     font-family: "Montserrat", sans-serif;
-  display: inline-block;        /* allows padding to wrap tightly around text */
+    display: inline-block;        /* allows padding to wrap tightly around text */
     padding: 8px 30px;            /* vertical and horizontal padding */
     background-color: #FFA500;    /* background color behind the text */
     color: white;                 /* text color */
@@ -4038,40 +3828,6 @@ font-family: 'Open Sans', sans-serif;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #vehicle-specs {
     padding: 40px 20px;
     text-align: center;
@@ -4153,8 +3909,6 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-
-
 /* Media Queries for Smaller Screens */
 @media screen and (max-width: 1024px) {
   .corner-image { width: 100px; }  
@@ -4233,25 +3987,6 @@ font-family: 'Open Sans', sans-serif;
   }
   .corner-image { width: 60px; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* HIRING SECTION */
@@ -4369,6 +4104,7 @@ font-family: 'Open Sans', sans-serif;
 .form-right h2 {
   color: #FF7A00;
   margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .form-right form input,
@@ -4416,10 +4152,6 @@ font-family: 'Open Sans', sans-serif;
 
 
 
-
-
-
-
 /* CONTACT US SECTION */
 .contact-section {
   padding: 80px 20px;
@@ -4453,7 +4185,6 @@ font-family: 'Open Sans', sans-serif;
 
 
 
-
 .contact-container {
   display: flex;
   flex-wrap: wrap;
@@ -4471,17 +4202,20 @@ font-family: 'Open Sans', sans-serif;
    padding: 30px;
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contact-left h2 {
   color: #FF7A00;
   margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contact-left p {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .hotline-box {
@@ -4516,6 +4250,7 @@ font-family: 'Open Sans', sans-serif;
 .contact-right h2 {
   color: #FF7A00;
   margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 form input,
@@ -4564,30 +4299,14 @@ form button:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* DISCLAIMER SECTION */
 .disclaimer-section {
   padding: 60px 20px;
   background: #fff7f0;
   color: #333;
-    margin-top: 70px;
+  margin-top: 70px;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .disclaimer-container {
@@ -4595,6 +4314,7 @@ form button:hover {
   margin: 0 auto;
   line-height: 1.7;
   text-align: justify; /* ✅ Makes all paragraph text justified */
+  font-family: 'Open Sans', sans-serif;
 }
 
 .disclaimer-container h2 {
@@ -4602,18 +4322,21 @@ form button:hover {
   color: #FF7A00;
   margin-bottom: 10px;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .disclaimer-container h3 {
   color: #FF7A00;
   margin-top: 25px;
   font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .disclaimer-container p {
   margin-bottom: 15px;
   font-size: 0.95rem;
   text-align: justify; /* ✅ Ensure all paragraph lines are aligned both sides */
+  font-family: 'Open Sans', sans-serif;
 }
 
 .disclaimer-container a {
@@ -4624,18 +4347,6 @@ form button:hover {
 .disclaimer-container a:hover {
   text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Groundbreaking Hero Title */
@@ -4673,7 +4384,6 @@ form button:hover {
   transform: scale(1.05);            /* Slight grow effect */
   cursor: pointer;
 }
-
 
 
 /* Responsive adjustments */
