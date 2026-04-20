@@ -459,12 +459,6 @@ if (openButtons.merchant)
 });
 
 
-
-
-
-
-
-
 function changeColor(color) {
   const productImage = document.getElementById('product-image');
   productImage.src = `images/pickapp-${color}.png`;
