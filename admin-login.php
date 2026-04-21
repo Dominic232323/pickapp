@@ -208,7 +208,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 <footer>
-  <p>Ayala Technohub, Dillman Quezon City, Philippines</p>
+  <p>Ayala Technohub, Diliman Quezon City, Philippines</p>
   <p>© PICKAPP 2024</p>
 </footer>
 
